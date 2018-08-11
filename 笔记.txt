@@ -1,0 +1,27 @@
+初始化 
+git init
+
+添加一个文件
+
+git  add  (fileName)
+
+添加全部文件
+
+git  add .
+
+添加特定后缀名文件
+
+git add *.html  
+
+删除一个文件
+
+git rm --cached (file)
+
+提交 
+git commit -m '备注信息'
+
+分支
+创建分支
+git branch  +自定义分支的名字
+从主线切换到分支  
+git checkout  +分支名字 
