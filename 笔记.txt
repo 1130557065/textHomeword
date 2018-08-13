@@ -1,4 +1,4 @@
-初始化 
+初始化本地仓库
 git init
 
 添加一个文件
@@ -9,19 +9,18 @@ git  add  (fileName)
 
 git  add .
 
-添加特定后缀名文件
+添加文件后缀为html的 文件
 
 git add *.html  
 
-删除一个文件
+删除一个 文件
 
 git rm --cached (file)
 
-提交 
+提交
 git commit -m '备注信息'
 
 分支
-创建分支
-git branch  +自定义分支的名字
-从主线切换到分支  
-git checkout  +分支名字 
+git branch  +创建一个自定义名字
+切换分支用户 
+git checkout  +自己创建的分支名字 
