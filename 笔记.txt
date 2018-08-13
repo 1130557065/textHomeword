@@ -1,0 +1,26 @@
+初始化本地仓库
+git init
+
+添加一个文件
+
+git  add  (fileName)
+
+添加全部文件
+
+git  add .
+
+添加文件后缀为html的 文件
+
+git add *.html  
+
+删除一个 文件
+
+git rm --cached (file)
+
+提交
+git commit -m '备注信息'
+
+分支
+git branch  +创建一个自定义名字
+切换分支用户 
+git checkout  +自己创建的分支名字 
